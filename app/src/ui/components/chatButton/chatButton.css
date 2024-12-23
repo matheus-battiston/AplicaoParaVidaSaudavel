@@ -1,0 +1,21 @@
+.chat-button{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 100px;
+    right: 200px;
+    border-radius: 100%;
+    background: #9de2c9;
+    cursor: pointer;
+    border: none;
+}
+
+.chat-icon{
+    width: 35px;
+}
+@media (max-width: 768px) {
+    .chat-button {
+        bottom: 30px;
+        right: 30px;
+    }
+}

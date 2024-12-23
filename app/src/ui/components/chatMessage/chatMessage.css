@@ -1,0 +1,24 @@
+.message-text{
+    font-size: 16px;
+    max-width: 80%;
+    padding: 10px 10px;
+    margin: 5px 0;
+    list-style: none;
+    overflow-wrap: break-word;
+}
+
+.message-text p {
+    margin: 0;
+}
+
+.sent{
+    align-self: flex-end;
+    background: #ccf3e4;
+    border-radius: 15px 15px 0px 15px;
+}
+
+.received{
+    align-self: flex-start;
+    background: #e0e0e0;
+    border-radius: 15px 15px 15px 0px;
+}

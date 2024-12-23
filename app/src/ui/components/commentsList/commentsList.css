@@ -1,0 +1,18 @@
+.comments-list-container     {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    margin-top: 30px;
+}
+.comment-card {
+    margin: 10px;
+    padding:10px 30px;
+    background-color: transparent;
+    border-radius: 20px;
+}
+.comment-card h3 {
+    color: #707070;
+}
+.comment-card p {
+    margin-left: 20px;
+}

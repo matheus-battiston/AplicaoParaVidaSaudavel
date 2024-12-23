@@ -1,0 +1,126 @@
+.recipe-details-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+    align-items: center;
+    gap: 30px;
+}
+.recipe-details-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    width: 100%;
+}
+.recipe-details-header-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.recipe-details-header-right {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 100%;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+.recipe-creator {
+    cursor: pointer;
+}
+.recipe-details-nutrition {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    color: #3e3e3e;
+    gap: 10px;
+}
+.recipe-details-nutrition-right{
+    display: flex;
+    gap: 20px;
+    color: #62A98F;
+}
+.recipe-details-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+.recipe-details-delete {
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 10px;
+}
+.recipe-details-delete-confirm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    
+}
+.recipe-details-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.recipe-details-info h3 {
+    margin-bottom: 10px;
+}
+.recipe-details-info-item p{
+    color: #707070;
+}
+.suggested-recipes {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.suggested-list-item {
+    border-bottom: solid #c2c2c2 1px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    align-items: center;
+}
+.suggested-image {
+    height: 100px;
+    width: 100px;
+}
+.suggested-list-item-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+@media (max-width: 768px) {
+    .recipe-details-header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .recipe-details-header-right {
+        align-items: center;
+        text-align: center;
+    }
+    .recipe-details-buttons {
+        flex-direction: column;
+    }
+    .recipe-details-nutrition-right {
+        gap: 15px;
+    }
+    .suggested-list-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+    .suggested-list-item-info {
+        align-items: center;
+        gap: 10px;
+    }
+}

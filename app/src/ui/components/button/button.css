@@ -1,0 +1,116 @@
+.main {
+    border: none;
+    border-radius: 25px;
+    background-color: #9DE2C9;
+    color: #303030;
+    width: 180px;
+    height: 45px;
+    font-size: 16px;
+}
+
+.main:hover {
+    background-color: #6fa18f;
+}
+
+.second {
+    border: solid #62A98F 1px;
+    border-radius: 25px;
+    background-color: transparent;
+    color: #62A98F;
+    width: 180px;
+    height: 45px;
+    font-size: 16px;
+}
+
+.second:hover {
+    background-color: #9DE2C9;
+    color: black;
+    border: none;
+}
+
+.disabled-button {
+    opacity: 70%;
+}
+
+.PLATINA-button {
+    border-radius: 25px;
+    background-color: transparent;
+    width: 180px;
+    height: 45px;
+    font-size: 16px;
+    border: solid #507682 1px;
+    color: #507682;
+}
+
+.PLATINA-button:hover {
+    cursor: pointer;
+    background-color: #9bcad9;
+    color: black;
+    border: none;
+}
+
+.OURO-button {
+    border-radius: 25px;
+    background-color: transparent;
+    width: 180px;
+    height: 45px;
+    font-size: 16px;
+    border: solid #CCAC00 1px;
+    color: #CCAC00;
+}
+
+
+.OURO-button:hover {
+    cursor: pointer;
+    background-color: #e4cc44;
+    color: black;
+    border: none;
+}
+
+.PRATA-button {
+    border-radius: 25px;
+    background-color: transparent;
+    width: 180px;
+    height: 45px;
+    font-size: 16px;
+    border: solid #8A8989 1px;
+    color: #8A8989;
+}
+
+.PRATA-button:hover {
+    cursor: pointer;
+    background-color: #c1bfbf;
+    color: black;
+    border: none;
+}
+
+.BRONZE-button {
+    border-radius: 25px;
+    background-color: transparent;
+    width: 180px;
+    height: 45px;
+    font-size: 16px;
+    border: solid #CD7F32 1px;
+    color: #CD7F32;
+}
+
+.BRONZE-button:hover {
+    cursor: pointer;
+    background-color: #e6a667;
+    color: black;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .main {
+        width: 150px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .second {
+        width: 150px;
+        height: 50px;
+        font-size: 14px;
+    }
+}

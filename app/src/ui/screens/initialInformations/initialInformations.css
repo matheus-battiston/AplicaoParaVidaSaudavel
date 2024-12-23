@@ -1,0 +1,92 @@
+.initial-informations {
+    background-color: #9DE2C9;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #303030;
+}
+.initial-informations-card {
+    height: 90%;
+    padding: 30px 50px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px;
+    width: 600px;
+
+}
+.initial-informations-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    color: #707070;
+}
+
+.initial-informations select {
+    width: 100%;
+    height: 50px;
+    align-self: flex-end;
+    padding: 0 20px;
+    text-align: left;
+    border: solid #C2C2C2 1px;
+    color: #303030;
+
+}
+.initial-informations option {
+    height: 100px;
+}
+.initial-informations-header {
+    display: flex;
+    gap: 5px;
+}
+.initial-informations-header button {
+    background-color: transparent;
+    border: none;
+}
+.initial-informations-goals {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+.information-button {
+    background-color: white;
+    font-size: 20px;
+    padding: 50px;
+    width: 500px;
+    border-radius: 20px;
+    border: solid #4D9D80 1px;
+    font-weight: bold;
+    color: #4D9D80;
+    
+}
+.information-button:hover {
+    background-color: #4d9d8048;
+    color: #707070;
+}
+.initial-informations-activity {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.selected-info-button {
+    background-color: #9DE2C9;
+    font-size: 20px;
+    padding: 50px;
+    border-radius: 20px;
+    width: 500px;
+    border: solid #707070 1px;
+    font-weight: bold;
+    color: #707070;
+}
+.initial-informations-buttons {
+    display: flex;
+    gap: 20px;
+}

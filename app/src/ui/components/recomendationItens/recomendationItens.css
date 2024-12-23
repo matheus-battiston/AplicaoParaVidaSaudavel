@@ -1,0 +1,66 @@
+.item-title{
+    color: #7D7D7D;
+    font-size: 14px;
+    margin: 0;
+}
+
+.item-info{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin: 0;
+}
+
+.info-edit{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.edit-button{
+    width: 20px;
+    height: 20px;
+}
+
+.input-edit{
+    width: 80px;
+    border: none;
+    border-bottom: 1px solid #C2C2C2;
+    outline: none;
+    text-align: center;
+    background-color: transparent;
+}
+
+.form-edit{
+    display: flex;
+}
+
+.action-buttons-confirm-cancel{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+@media screen and (max-width:570px) {
+    .form-edit{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item-info{
+        padding: 0;
+    }
+
+    .action-buttons-confirm-cancel{
+        margin-left: 0;
+    }
+
+    .input-edit{
+        height: 30px;
+    }
+
+    .action-buttons-confirm-cancel{
+        margin-top: 10px;
+    }
+
+}

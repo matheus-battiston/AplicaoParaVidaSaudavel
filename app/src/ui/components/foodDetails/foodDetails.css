@@ -1,0 +1,90 @@
+.food-details-card {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+}
+.food-details-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid black 1px;
+    padding-bottom: 20px;
+}
+.food-details-header-left{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    align-items: center;
+}
+.food-details-header-left input {
+    width: 250px;
+}
+.food-details-community {
+    color: #6C9C8B;
+    
+}
+.food-details-header button {
+    height: 20px;
+    width: 20px;
+}
+.food-details-name {
+    display: flex;
+    flex-direction: column;
+}
+.food-details-quantity {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 150px;
+}
+.food-details-quantity-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.food-details-table {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-top: 30px;
+}
+.food-details-table-input {
+    display: flex;
+    gap: 30px;
+    justify-content: end;
+    align-items: center;
+}
+.food-details-table-input h3 {
+    text-align:center;
+    width: 100%
+}
+.food-details-table h2 {
+    color: #27C28A;
+}
+.food-details-button {
+    margin-top: 100px;
+    align-self: center;
+}
+@media (max-width: 768px) {
+
+    .food-details-header {
+      padding-bottom: 20px;
+      flex-direction: column;
+      gap: 20px;
+      
+    }
+    .food-details-table {
+        padding-top: 20px;
+        flex-grow: 1;
+        gap: 30px;
+        justify-content: space-between;
+    }
+}

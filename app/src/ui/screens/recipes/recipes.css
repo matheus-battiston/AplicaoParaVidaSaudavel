@@ -1,0 +1,125 @@
+.recipe {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.recipe-screen {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+}
+
+.recipe-screen h2 {
+    color: black;
+
+}
+
+.recipe-screen-list {
+    padding: 0 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.recipe-screen-top {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+}
+.recipe-screen-top-filter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    gap: 20px;
+    height: fit-content;
+}
+.recipe-screen-top-alergies {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: baseline;
+}
+.recipe-screen-top-alergies-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.recipe-list-options {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: solid #BCBCBC 2px;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+#recipe-list-options-last {
+    border-right: none;
+}
+
+.recipe-list-options button {
+    background-color: transparent;
+    border: none;
+    color: #707070;
+    height: 50px;
+    width: 33%;
+    font-size: 20px;
+    border-right: solid #BCBCBC 2px;
+}
+.selected-recipe-list {
+    font-weight: bold;
+}
+.recipe-posts {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+
+}
+
+.recipe-ranking {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    color: black;
+    padding: 0 200px;
+}
+
+.recipe-ranking h2 {
+    background-color: rgb(73, 143, 170);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+.checkbox-filter-style{
+    width: 35px;
+}
+
+@media (max-width: 768px) {
+    .recipe-list-options button {
+        font-size: 16px;
+    }
+    .recipe-list-options {
+        gap: 0;
+    }
+    .recipe-screen-list {
+        align-items: center;
+    }
+    .recipe-screen-top {
+        flex-direction: column;
+    }
+    .recipe-screen-top-filter {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:1350px) {
+    .recipe-screen-list{
+        padding: 0;
+    }
+}

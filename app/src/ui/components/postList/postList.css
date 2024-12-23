@@ -1,0 +1,17 @@
+.posts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: fit-content;
+    align-items:baseline;
+    margin: 25px 0;
+    width: 100%;
+}
+.post-list-load-more {
+    align-self: center;
+}
+@media (max-width: 768px) {
+    .posts-list {
+        width: 100%;
+    }
+}

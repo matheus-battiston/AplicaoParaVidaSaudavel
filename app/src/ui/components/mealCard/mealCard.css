@@ -1,0 +1,48 @@
+.meal-card {
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #3E3E3C; 
+}
+.meal-show-details {
+    background-color: transparent;
+    width: fit-content;
+    border: none;
+    font-size: 16px;
+    padding: 0;
+    color: #3E3E3C;
+}
+.meal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.meal-header h2 {
+    color: black;
+}
+
+.meal-details {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+.meal-nutrients {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+@media (max-width: 768px) {
+    .meal-card {
+        padding: 10px;
+    }
+    .meal-card h2 {
+        font-size: 18px;
+    }
+    .meal-details {
+        flex-direction: column;
+    }
+}

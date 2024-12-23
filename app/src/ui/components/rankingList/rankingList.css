@@ -1,0 +1,53 @@
+.ranking {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 0;
+    padding-top: 40px;
+    padding-left: 0;
+}
+.ranking-user {
+    cursor:pointer;
+    border-radius: 20px;
+    padding: 5px
+}
+.ranking-user:hover {
+    background-color: gainsboro;
+}
+.ranking li {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-right: 10px;
+}
+.ranking img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.ranking-user-info-top {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.ranking-user-info span {
+    color: #4D9D80;
+}
+.ranking-load-more {
+    align-self: baseline;
+}
+@media (max-width: 768px) {
+    .ranking li {
+        margin: 0;
+    
+    }
+    .ranking img {
+        width: 50px;
+        height: 50px;
+    }
+    .ranking-user {
+        margin: 0;
+        padding: 0;
+    }
+}

@@ -1,0 +1,234 @@
+.tracker {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+}
+
+.tracker-header {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.tracker-date {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 10px;
+}
+.tracker-date input {
+    margin-left: 20px;
+}
+.tracker-screen {
+    max-height: 90%;
+}
+.tracker-screen-content {
+    display: flex;
+    height: 75%;
+    gap: 100px;
+}
+.tracker-right-page {
+    width: 55%;
+    color: black;
+}
+.tracker-meals-header {
+    margin-bottom: 20px;
+}
+.tracker-meals-list {
+    overflow-y: scroll;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 20px;
+}
+
+.tracker-left-page {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+    gap: 0px;
+    color: black;
+}
+
+.tracker-calories {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tracker-calories-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 20%;
+}
+
+.tracker-calories-circle {
+    margin: 0 20px;
+}
+
+.tracker-left-page span {
+    color: #858585;
+}
+.tracker-left-page h2 {
+    font-weight: bold;
+    color: #303030;
+}
+
+.tracker-water-card {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    
+    border: solid #9DE2C9 1px;
+    border-radius: 20px;
+    width: 350px;
+}
+.tracker-water-card-top {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    border-bottom: solid #9DE2C9 1px;
+}
+.tracker-water-card-top div {
+    padding:20px;
+    width: 50%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tracker-water-consumed {
+    border-right: solid #9DE2C9 1px;
+    height: 100%;
+}
+.tracker-water-card-buttons {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+    align-items: center;
+    color: #4D9D80;
+    font-weight: bold;
+}
+.tracker-water-card-buttons button {
+    background-color: transparent;
+    border: none;
+
+}
+.tracker-macros-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tracker-macros-info {
+    display: flex;
+    flex-direction: column;
+}
+.tracker-macros-completion {
+    display: flex;
+    gap: 20px;
+}
+.tracker-macros-bar {
+    width: 100%;
+    height: 20px;
+    border-color: #ddd;
+    border-radius: 50px;
+    position:relative;
+    background-color: #c2c2c2;
+}
+.tracker-macros-bar-progress {
+    max-width: 100%;
+    height: 100%;
+    background-color: #9DE2C9;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.tracker-macros-completion span {
+    min-width: 70px;
+}
+
+@media (max-width: 768px) {
+    .tracker-screen-content{
+        flex-direction: column;
+    }
+
+    .tracker-screen{
+        padding: 0 10px;
+    }
+
+    .tracker-right-page{
+        width: 100%;
+    }
+
+    .tracker-calories{
+        margin: 20px 0;
+        justify-content: space-evenly;
+    }
+
+    .tracker-water-card{
+        margin: 40px 0;
+    }
+
+    .tracker-header{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .tracker-date{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .tracker-date input{
+        margin: 10px 0;
+    }
+
+    .tracker-date h2{
+        font-size: 16px;
+    }
+    .tracker-calories {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .tracker-calories-info {
+        width: fit-content;
+    }
+    .tracker-water-card {
+        width: auto;
+    }
+    .tracker-meals-list {
+        overflow-y: hidden;
+        padding: 0;
+    }
+
+}
+
+
+@media screen and (max-width:1125px) {
+    .tracker-right-page{
+        width: 100%;
+    }
+
+    .tracker-screen-content{
+        flex-direction: column;
+    }
+
+    .tracker-calories{
+        justify-content: center;
+    }
+
+    .tracker-left-page{
+        gap: 20px;
+    }
+}

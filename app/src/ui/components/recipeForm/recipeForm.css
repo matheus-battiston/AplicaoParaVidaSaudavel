@@ -1,0 +1,59 @@
+.recipe-form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 40px 0;
+    padding: 0 500px;
+
+}
+
+.recipe-form-header {
+    display: flex;
+    gap: 10px;
+}
+
+.recipe-form-header button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+
+.recipe-form select {
+    width: 150px;
+}
+
+
+
+.recipe-form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.recipe-form-ingredients-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recipe-form-ingredients-content {
+    padding: 20px 50px
+}
+
+.recipe-form .main {
+    align-self: center;
+}
+
+.recipe-form-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    .recipe-form-ingredients-content {
+        padding: 0;
+    }
+}

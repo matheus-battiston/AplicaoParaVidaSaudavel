@@ -1,0 +1,43 @@
+.modal-overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-content:center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+  
+}
+.modal-children {
+    height: 750px;
+    width: 750px;
+    position: relative;
+    background-color: white;
+    padding: 30px 50px;
+}
+
+.small {
+    height: 400px;
+    width: 300px;
+}
+
+.modal-return-arrow {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+}
+@media (max-width: 768px) {
+    .modal-children {
+        height: 100%;
+        width: 100%;
+        border-radius: 0;
+        padding: 30px 20px;
+    }
+}

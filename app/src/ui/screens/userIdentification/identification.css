@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+.identification-screen-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 20%;
+    background-color: #9DE2C9;
+
+}
+
+.identification-logo-vertical {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px;
+}
+.identification-logo-horizontal img {
+    display: none;
+}
+.identification-form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width:50%;
+    background-color: rgb(255, 255, 255);
+    padding: 0 8%;
+    color: black;
+}
+.identification-form h1{
+    align-self: baseline;
+}
+.identification-form-button {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+}
+.identification-form-button button {
+    width: 100%;
+}
+.form-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    
+}
+
+.form-item input {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+  .identification-screen-container {
+    flex-direction: column;
+    padding: 0;
+    
+  }
+  .identification-logo-vertical {
+    display: none;
+  }
+  .identification-logo-horizontal img {
+    display: block;
+    height: 150px;
+    padding: 25px;
+    width: 100%;
+  }
+  .identification-form {
+    width: 100%;
+  }
+}

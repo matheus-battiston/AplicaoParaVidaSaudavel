@@ -1,0 +1,112 @@
+.card-style{
+    padding-top: 70px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.font-achievement{
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.title-achievement{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.size-progress-bar{
+    width: 100px;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.progress-bar-outside{
+    overflow: hidden;
+    position: relative;
+    background-color: #D9D9D9;
+}
+
+.progress-bar-inside{
+    position: absolute;
+    background-color: #9DE2C9;
+    margin: 0;
+}
+
+.progress{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.progress-text{
+    font-size: 16px;
+}
+
+.BRONZE{
+    color: #CD7F32;
+    border: 1px solid #CD7F32;
+}
+
+.BRONZE-progress{
+    background-color: #CD7F32;
+}
+
+.PRATA{
+    color: #9A9A9A;
+    border: 1px solid #8A8989;
+
+}
+
+.PRATA-progress{
+    background-color: #8A8989;
+}
+
+.OURO{
+    color: #CCAC00;
+    border: 1px solid #CCAC00;
+
+}
+
+.OURO-progress{
+    background-color: #CCAC00;
+}
+
+.incomplete{
+    background-color: #EFEFEF;
+}
+
+.header-achievement{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    color: white;
+}
+
+
+.PLATINA{
+    color: #507682;
+    border: 2px solid #507682;
+
+}
+
+.PLATINA-progress{
+    background-color: #507682;
+}
+
+
+.description-achievement{
+    color: #707070;
+}

@@ -1,0 +1,46 @@
+
+.post-form-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 70px;
+}
+
+.post-form-header {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.post-form-info {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+}
+.post-form-info-user {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+}
+.post-form-info img {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    float: left;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+
+.post-form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.post-form-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.post-form button {
+   align-self: center;
+}
